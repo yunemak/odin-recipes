@@ -3,7 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-	font-family: "Brush Script MT", cursive, sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -14,11 +14,9 @@ li {
 	list-style-type: none;
 }
 
-
-/* Layout Declerations */
-
+/* Layout Declaration */
 .main-container {
-	background-color: #5a3206;
+	background-color: #233D4D;
 	width: 100%;
 	height: 1000px; /* to be changed later */
 	/* Layout */
@@ -28,31 +26,29 @@ li {
 }
 
 header {
-	background-color: #472602;
-	border-bottom: 5px solid #3b1f01;
-
+	background-color: black;
+	/* Layout inside */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 50px;
 }
 
 main {
-	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 section {
+	flex-basis: 500px;
 	display: flex;
-	background-color: rgb(162, 161, 161);
+	background-color: #EAECF0;
 	flex-direction: column;
 	align-items: center;
 	width: 30%;
 	height: 700px; 
 	gap: 50px;
-	border: 2px solid white;
 }
 
 /* Specific Declerations */
