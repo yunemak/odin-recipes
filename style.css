@@ -56,6 +56,8 @@ section {
 }
 
 footer {
+	color: white;
+	font-weight: bold;
 	flex: 1;
 	background-color: #FE7F2D;
 	display: flex;
