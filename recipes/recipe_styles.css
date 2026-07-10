@@ -10,16 +10,37 @@ a {
 	text-decoration: none;
 }
 
-ul {
-	list-style-type: none;
-}
-
-ol {
-	list-style-type: none;
-}
-
 /* Containers */
 body {
 	background-color: #233D4D;
+	color: white;
 }
 
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+
+#recipes {
+	border-bottom: 2px solid white;
+	padding: 10px 20px;
+	color: white;
+	font-weight: bold;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
