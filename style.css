@@ -16,6 +16,7 @@ li {
 
 /* Containers */
 .main-container {
+	min-height: 100vh;
 	background-color: #233D4D;
 	/* Layout */
 	display: flex;
@@ -32,7 +33,6 @@ header {
 }
 
 main {
-	flex: 5;
 	padding: 20px;
 	/* Layout inside */
 	display: flex;
@@ -72,7 +72,7 @@ section > a {
 	color: black;
 	padding: 10px;
 	margin: 10px;
-	background-color: #FE7F2D;
+	background-color: white;
 	border: 2px solid black;
 	border-radius: 15px;
 }
@@ -84,4 +84,12 @@ section > p {
 img {
 	width: 400px;
 	height: auto;
+}
+
+footer > ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
