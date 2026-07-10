@@ -1,3 +1,4 @@
+/* Reset */
 * {
 	margin: 0px;
 	padding: 0px;
@@ -5,8 +6,8 @@
 	font-family: "Brush Script MT", cursive, sans-serif;
 }
 
-body {
-	background-color: MediumTurquoise;
+a {
+	text-decoration: none;
 }
 
 ul {
@@ -17,18 +18,8 @@ ol {
 	list-style-type: none;
 }
 
-.text,
-.header {
-	text-align: center;
+/* Containers */
+body {
+	background-color: #233D4D;
 }
 
-#recipes {
-	display: block;
-	margin: 10px;
-	padding: 10px;
-	background-color: Azure;
-}
-
-#empty {
-	height: 200px;
-}
